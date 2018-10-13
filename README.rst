@@ -11,7 +11,7 @@ integration.
 Features
 ========
 
-* Integrates with existing ANOise GUI
+* Integrates with ANoise and it's Preferences dialog
 * Show currently playing noise
 * Simple dropdown menu with, Play, Pause, Next, Preferences
 * Middle click (or both buttons) plays and pauses
