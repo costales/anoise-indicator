@@ -15,15 +15,15 @@ Features
 * Show currently playing noise
 * Simple dropdown menu with, Play, Pause, Next, Preferences
 * Middle click (or both buttons) plays and pauses
-* Disable MPRIS integration to avoid having media keys interfere with your
-  relaxation and focus time
+* Disable MPRIS integration to avoid having play/pause/next/previous media keys
+  interfere with your relaxation and focus time
 * Works with ANoise Preferences and everything it offe
 
 Caveats
 =======
 
 * Replaces built-in GUI (runs in it's place)
-* Disable MPRIS integration
+* Disables MPRIS integration, play/pause/next/previous media buttons
 
 
 Screenshots
@@ -32,9 +32,9 @@ Screenshots
 .. list-table::
 
    * - Paused
-   
+
      - Playing
-   
+
    * - .. image:: screenshots/paused.png
            :alt: Paused AppIndicator for ANoise
 

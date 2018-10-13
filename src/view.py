@@ -69,10 +69,10 @@ class Indicator:
         # and inability to distinguish which come from anoise
         self._player.sound_menu.remove_from_connection()
 
-        # DEBUG SETTING, used during development
-        # hide window ui, if it's the GUI class (rather then Indicator class)
-        if self._player.window.__class__.__name__ == 'GUI':
-            self._player.window.window.hide()
+        #: DEBUG SETTING, used during development
+        #: hide window ui, if it's the GUI class (rather then Indicator class)
+        # if self._player.window.__class__.__name__ == 'GUI':
+        #     self._player.window.window.hide()
 
         # build the preferences window
         self._preferences_window = Preferences(self)
@@ -245,16 +245,16 @@ class Indicator:
             self._play()
 
     # ----------------------------------------------------------------------- #
-    def _on_previous_activate(self, widget):
-        # tell the player to play track
-        self._player._set_new_play('previous')
+    def _on_next_activate(self, widget):
+        # tell the player to play next track
+        self._player._set_new_play('next')
         # update noise status
         self._update_now_playing()
 
     # ----------------------------------------------------------------------- #
-    def _on_next_activate(self, widget):
-        # tell the player to play next track
-        self._player._set_new_play('next')
+    def _on_previous_activate(self, widget):
+        # tell the player to play track
+        self._player._set_new_play('previous')
         # update noise status
         self._update_now_playing()
 
