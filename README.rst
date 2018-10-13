@@ -29,14 +29,20 @@ Caveats
 Screenshots
 ===========
 
-.. image:: screenshots/paused.png
-   :alt: Paused AppIndicator for ANoise
+.. list-table::
 
-.. image:: screenshots/playing.png
-   :alt: Playing AppIndicator for ANoise
+   * - Paused
+   
+     - Playing
+   
+   * - .. image:: screenshots/paused.png
+           :alt: Paused AppIndicator for ANoise
+
+     - .. image:: screenshots/playing.png
+           :alt: Playing AppIndicator for ANoise
 
 
 License
 =======
 
-Licensed under the GLP 3 License.
+Licensed under the GPL3 License.
