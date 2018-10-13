@@ -17,7 +17,6 @@ Features
 * Middle click (or both buttons) plays and pauses
 * Disable MPRIS integration to avoid having play/pause/next/previous media keys
   interfere with your relaxation and focus time
-* Works with ANoise Preferences and everything it offe
 
 Caveats
 =======
